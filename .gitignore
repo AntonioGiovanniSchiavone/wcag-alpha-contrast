@@ -1,0 +1,6 @@
+node_modules/
+data/*.sqlite
+data/*.csv
+data/tranco_top1m.csv
+*.log
+.DS_Store

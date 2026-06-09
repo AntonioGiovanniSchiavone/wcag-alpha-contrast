@@ -1,0 +1,17 @@
+services:
+  crawler:
+    build: .
+    volumes:
+      - ./data:/app/data
+    command: npm run crawl:200
+    environment:
+      - NODE_ENV=production
+
+  # Run with: docker compose run analysis
+  analysis:
+    build: .
+    volumes:
+      - ./data:/app/data
+    command: node crawler/crawl.js --resume --sites 0
+    profiles:
+      - tools

@@ -1,0 +1,42 @@
+{
+  "name": "wcag-alpha-contrast",
+  "version": "1.0.0",
+  "description": "Extended WCAG contrast ratio calculator with alpha compositing support. Resolves semi-transparent CSS colors (RGBA, HSLA) to their rendered opaque equivalents before computing contrast.",
+  "main": "src/index.js",
+  "bin": {
+    "wcag-alpha-contrast": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "crawl": "node crawler/crawl.js",
+    "crawl:200": "node crawler/crawl.js --sites 200",
+    "crawl:1000": "node crawler/crawl.js --sites 1000",
+    "validate": "node validation/generate_paper_data.js"
+  },
+  "keywords": [
+    "wcag",
+    "accessibility",
+    "a11y",
+    "contrast-ratio",
+    "color-contrast",
+    "rgba",
+    "alpha",
+    "compositing",
+    "porter-duff",
+    "css-color"
+  ],
+  "author": "Antonio Giovanni Schiavone <agschiavone77@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoniogiovannischiavone/wcag-alpha-contrast"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "playwright": "^1.45.0",
+    "better-sqlite3": "^11.0.0"
+  }
+}
