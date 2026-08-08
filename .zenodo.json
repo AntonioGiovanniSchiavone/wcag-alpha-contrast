@@ -1,0 +1,30 @@
+{
+  "title": "wcag-alpha-contrast: reference implementation and crawler for alpha-aware WCAG contrast evaluation",
+  "description": "JavaScript reference implementation of the extended WCAG contrast ratio pipeline, which resolves semi-transparent CSS colours (RGBA and HSLA) to their rendered opaque equivalents by Porter-Duff \"over\" compositing before computing relative luminance and contrast. The archive also contains the Playwright-based crawler, the analysis scripts and the raw data underlying the measurement study of the accompanying paper.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Schiavone, Antonio Giovanni",
+      "orcid": "0000-0003-2481-5389",
+      "affiliation": "Istituto di Analisi dei Sistemi ed Informatica \"Antonio Ruberti\", Consiglio Nazionale delle Ricerche, Rome, Italy"
+    }
+  ],
+  "keywords": [
+    "web accessibility",
+    "WCAG",
+    "WCAG 2.2",
+    "contrast ratio",
+    "alpha compositing",
+    "Porter-Duff",
+    "RGBA",
+    "HSLA",
+    "CSS",
+    "relative luminance",
+    "sRGB",
+    "accessibility evaluation tools",
+    "automated accessibility testing"
+  ],
+  "language": "eng",
+  "access_right": "open"
+}
