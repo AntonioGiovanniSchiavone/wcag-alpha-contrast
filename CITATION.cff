@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite both the software and the accompanying paper."
-title: "wcag-alpha-contrast: reference implementation and crawler for alpha-aware WCAG contrast evaluation"
+title: "WCAG-Alpha-Contrast: reference implementation and crawler for alpha-aware WCAG contrast evaluation"
 abstract: >-
   JavaScript reference implementation of the extended WCAG contrast ratio
   pipeline, which resolves semi-transparent CSS colours (RGBA and HSLA) to
